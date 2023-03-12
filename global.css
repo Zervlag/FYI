@@ -1,0 +1,23 @@
+.body{
+    background-color: #202020;
+}
+.navbar-nav.ms-auto li a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+.navbar-nav.ms-auto li {
+    padding-left: 37px;
+    padding-right: 37px;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+hr {
+    border: 2px solid rgb(255, 0, 0);
+    width: 1080px;
+    margin: auto;
+  
+  }
