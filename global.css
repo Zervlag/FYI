@@ -1,0 +1,42 @@
+.body{
+    background-color: #202020;
+}
+.navbar-nav.ms-auto li a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+.navbar-nav.ms-auto li {
+    padding-left: 37px;
+    padding-right: 37px;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+@media (min-width: 1200px) {
+    hr {
+      border: 2px solid rgb(255, 255, 255);
+    width: 1080px;
+    margin: auto;
+    position: relative;
+    align-self: center;
+    left: auto;
+    right: auto;
+    top: 30px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    hr {
+      border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    margin: auto;
+    position: relative;
+    align-self: center;
+    left: auto;
+    right: auto;
+    top: 30px;
+    }
+  }
